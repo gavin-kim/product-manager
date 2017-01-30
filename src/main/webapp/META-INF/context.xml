@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/">
+  <Realm className="org.apache.catalina.realm.DataSourceRealm"
+         dataSourceName="WebUser-Resource" localDataSource="true"
+         userTable="WebUser"
+         userNameCol="username"
+         userCredCol="password"
+         userRoleTable="WebUser_Role"
+         roleNameCol="role"/>
+
+  <Resource name="WebUser-Resource" auth="Container" driverClassName="oracle.jdbc.OracleDriver"
+            maxIdle="30" maxTotal="100"
+            maxWaitMillis="600000" username="kyk0704" password="RLAdbsrhks74*$"
+            type="javax.sql.DataSource"
+            url="jdbc:oracle:thin:@//kwanii.clnonjbgn34i.us-east-1.rds.amazonaws.com:1521/kwanii"/>
+
+  <!--    <Realm className="org.apache.catalina.realm.UserDatabaseRealm"
+             resourceName="UserDatabase"/>
+
+      &lt;!&ndash; Name: UserDatabase &ndash;&gt;
+      <Resource
+              name="UserDatabase" auth="Container"
+              type="org.apache.catalina.UserDatabase"
+              description="User database that can be updated and saved"
+              factory="org.apache.catalina.users.MemoryUserDatabaseFactory"
+              pathname="conf/tomcat-users.xml" />-->
+</Context>
