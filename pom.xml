@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kwanii</groupId>
-    <artifactId>product-maintenance</artifactId>
-    <version>1.0.0</version>
+    <artifactId>product-manager</artifactId>
+    <version>1.0</version>
     <packaging>war</packaging>
 
     <properties>

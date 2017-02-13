@@ -9,12 +9,14 @@
         <module name="A3-YoonkwanKim" />
         <module name="item-inventory" />
         <module name="product-maintenance" />
+        <module name="product-manager" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="A3-YoonkwanKim" target="1.8" />
       <module name="item-inventory" target="1.8" />
       <module name="product-maintenance" target="1.8" />
+      <module name="product-manager" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
